@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../www/fonts/Quicksand.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+
+ion-view {
+  background-color: #1A2530 !important; }
+
+ion-content {
+  color: #F2F2F2; }
+  ion-content h1 {
+    padding: 10px; }
+
+.card {
+  position: relative; }
+
+.timeline {
+  position: relative;
+  padding: 0;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 66px;
+    height: 100%;
+    width: 4px;
+    background: #BF1523; }
+  .timeline .timeline-content {
+    position: relative;
+    margin-left: 68px;
+    padding: 1em; }
+  .timeline .circle {
+    position: absolute;
+    top: 45px;
+    left: -15px;
+    background: #BF1523;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; }
+  .timeline .date {
+    position: absolute;
+    top: 42px;
+    left: -66px;
+    width: 77px;
+    font-size: 24px;
+    color: #F2F2F2; }
+    .timeline .date .number {
+      font-size: 11px;
+      vertical-align: super; }
+    .timeline .date .month {
+      font-size: 24px;
+      margin-left: -8px; }
+  .timeline .icon {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    color: red;
+    z-index: 1000;
+    cursor: pointer; }
+
+button {
+  text-align: center; }
+
+.tabs {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  text-align: center;
+  border-radius: 61%;
+  width: 54px;
+  border-top-width: 0; }
+
+.padding {
+  padding: 10px; }
+
+.buttonAdd {
+  float: right; }
+
+textarea {
+  height: 181px;
+  background: transparent;
+  width: 97%; }
+
+.list textarea, .list input.ng-valid.ng-dirty {
+  color: white; }
+.list .input-label {
+  color: #BF1523;
+  font-family: 'Quicksand';
+  font-weight: bold; }
+
+.color {
+  width: 30px;
+  height: 30px; }
+
+.colors {
+  display: inline-block;
+  margin-left: 3px;
+  margin-top: 11px; }
+
+.find {
+  color: black;
+  border-bottom: 1px red dotted;
+  margin-top: 2px; }
+  .find:last-child {
+    border-bottom: none; }

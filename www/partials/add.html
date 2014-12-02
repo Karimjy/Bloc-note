@@ -1,0 +1,26 @@
+<ion-view title="Ajouter une note" ng-controller="TimeLineCtrl">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <form ng-submit="createNote(note)">
+	    <div class="list">
+		  <label class="item item-input item-floating-label">
+		    <span class="input-label">Titre</span>
+		    <input type="text" placeholder="Titre" ng-model="note.title">
+		  </label>
+		  <label class="item item-input item-floating-label">
+		    <span class="input-label">Contenu</span>
+		    <textarea placeholder="Contenu"  ng-model="note.content"></textarea>
+		  </label>
+		  <label  class="item item-input item-floating-label">
+		  	<span class="input-label">Tag</span>
+		    <input type="text" placeholder="Tag" ng-model="note.tag">
+		  </label>
+		  <label>
+		  	<button type="submit" nav-clear class="button button-assertive buttonAdd">Ajouter</button>
+		  </label>
+		</div>
+	</form>
+  </ion-content>
+</ion-view>
